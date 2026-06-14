@@ -174,7 +174,7 @@ export default function HistoryPage() {
       <div className="topbar">
         <div>
           <h2 style={{ fontSize: '1.1rem', margin: 0 }}>Riwayat Transaksi</h2>
-          <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', margin: 0 }}>
+          <p className="hide-on-mobile" style={{ fontSize: '0.8rem', color: 'var(--text-muted)', margin: 0 }}>
             {tasks.length} total transaksi
           </p>
         </div>

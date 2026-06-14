@@ -110,7 +110,7 @@ export default function TutorialPage() {
             <BookOpen size={18} color="var(--primary)" />
             {current.title}
           </h2>
-          <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', margin: 0 }}>
+          <p className="hide-on-mobile" style={{ fontSize: '0.8rem', color: 'var(--text-muted)', margin: 0 }}>
             {current.desc}
           </p>
         </div>

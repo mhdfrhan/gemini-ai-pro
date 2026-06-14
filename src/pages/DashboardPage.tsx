@@ -142,7 +142,7 @@ export default function DashboardPage() {
           <h2 style={{ fontSize: '1.1rem', margin: 0 }}>
             Halo, {user?.displayName?.split(' ')[0]} 👋
           </h2>
-          <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', margin: 0 }}>
+          <p className="hide-on-mobile" style={{ fontSize: '0.8rem', color: 'var(--text-muted)', margin: 0 }}>
             Selamat datang di dashboard Anda
           </p>
         </div>
@@ -152,11 +152,11 @@ export default function DashboardPage() {
             onClick={() => window.location.reload()}
           >
             <RefreshCw size={15} />
-            Refresh
+            <span className="hide-on-mobile">Refresh</span>
           </button>
           <Link to="/dashboard/submit" className="btn btn-primary btn-sm">
             <PlusCircle size={15} />
-            Beli Sekarang
+            <span className="hide-on-mobile">Beli Sekarang</span>
           </Link>
         </div>
       </div>

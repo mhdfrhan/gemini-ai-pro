@@ -73,7 +73,7 @@ export function TopupPage() {
       <div className="topbar">
         <div>
           <h2 style={{ fontSize: '1.1rem', margin: 0 }}>Topup Poin</h2>
-          <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', margin: 0 }}>
+          <p className="hide-on-mobile" style={{ fontSize: '0.8rem', color: 'var(--text-muted)', margin: 0 }}>
             Poin Anda saat ini: <strong style={{ color: 'var(--text)' }}>{user?.points || 0}</strong>
           </p>
         </div>

@@ -77,7 +77,7 @@ export default function SubmitTaskPage() {
       <div className="topbar">
         <div>
           <h2 style={{ fontSize: '1.1rem', margin: 0 }}>Beli Google AI Pro</h2>
-          <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', margin: 0 }}>
+          <p className="hide-on-mobile" style={{ fontSize: '0.8rem', color: 'var(--text-muted)', margin: 0 }}>
             Isi form berikut untuk mengaktifkan Google AI Pro
           </p>
         </div>
