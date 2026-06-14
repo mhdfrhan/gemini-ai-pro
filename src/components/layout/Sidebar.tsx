@@ -32,13 +32,12 @@ export function Sidebar() {
     <>
       {/* Mobile hamburger */}
       <button
-        className="btn btn-ghost"
+        className="btn btn-ghost sidebar-toggle-btn"
         style={{
           position: 'fixed',
-          top: 16,
-          left: 16,
+          top: 14,
+          left: 14,
           zIndex: 70,
-          display: 'none',
           padding: '8px',
         }}
         id="sidebar-toggle"

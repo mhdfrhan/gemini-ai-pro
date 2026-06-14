@@ -461,6 +461,10 @@ a:hover { color: var(--primary); }
   z-index: 40;
 }
 
+.sidebar-toggle-btn {
+  display: none;
+}
+
 /* ═══════════════════════════════════════════════════════════════
    GRID & STAT CARDS
 ═══════════════════════════════════════════════════════════════ */
@@ -967,6 +971,12 @@ tr:hover td { background: rgba(255,255,255,0.02); }
   .main-content { margin-left: 0; }
   .auth-page { grid-template-columns: 1fr; }
   .auth-left { display: none; }
+  .sidebar-toggle-btn {
+    display: flex;
+  }
+  .topbar {
+    padding-left: 64px !important;
+  }
 }
 
 @media (max-width: 768px) {
