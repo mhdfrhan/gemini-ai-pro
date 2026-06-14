@@ -123,6 +123,7 @@ export default function LandingPage() {
             <Cpu size={18} color="white" />
           </div>
           <span
+            className="hide-on-mobile"
             style={{
               fontFamily: "var(--font-heading)",
               fontWeight: 700,

@@ -1043,3 +1043,9 @@ tr:hover td { background: rgba(255,255,255,0.02); }
   background: var(--border);
   margin: 24px 0;
 }
+
+@media (max-width: 640px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+}
