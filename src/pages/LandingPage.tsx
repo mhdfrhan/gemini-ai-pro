@@ -318,7 +318,7 @@ export default function LandingPage() {
           <div
             className="pricing-grid"
             style={{
-              gridTemplateColumns: "minmax(300px, 400px)",
+              gridTemplateColumns: "minmax(min(100%, 300px), 400px)",
               justifyContent: "center",
             }}
           >
